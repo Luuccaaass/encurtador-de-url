@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <title class="a">Document</title>
+    <script src="../JS/mainScript.js"></script>
 </head>
-<body> 
-    <h1> Encurtador de URL </h1>
+
+
+<body>
+    <header>
+        <h1 class="logo">EncurtaLinks</h1>
+    </header>
+
+    <main>
+        <section class="content">
+            <section class="row">
+                <input type="text" class="textinput" placeholder="Link" id="input">
+                <button class="confirmbutton" onclick={encurtar()}>Encurtar!</button>
+            </section>
+            
+            <section class="row">
+                <h2>Resposta</h2>
+                <input type="text" class="textinput" >
+            </section>
+        </section>
+    </main>
 </body>
+
 </html>

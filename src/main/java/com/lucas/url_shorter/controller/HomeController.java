@@ -10,4 +10,9 @@ public class HomeController {
     public String index(){
         return "redirect:/html/index.html";
     }
+
+    @GetMapping("/google")
+    public String google() {
+        return "redirect:https://google.com";
+    }
 }
